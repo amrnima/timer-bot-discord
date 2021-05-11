@@ -1,0 +1,37 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "you can give it to bot a time and the bot send start and finish time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrnima/timer-bot-discord.git"
+  },
+  "keywords": [
+    "discord",
+    "discord",
+    "timer",
+    "discord",
+    "timer",
+    "bot",
+    "bot",
+    "discord",
+    "mafia",
+    "مافیا",
+    "تایمر",
+    "مافیا"
+  ],
+  "author": "nima amr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrnima/timer-bot-discord/issues"
+  },
+  "homepage": "https://github.com/amrnima/timer-bot-discord#readme"
+}
