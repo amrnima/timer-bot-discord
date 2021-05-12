@@ -8,9 +8,9 @@ module.exports = {
         }
         const timer = Number(cmd) > 1000? Number(cmd): Number(cmd) * 1000;
         if (timer) {
-            message.channel.send(`----------You have a count for ${timer} seconds-----------`);
+            message.channel.send(`----------You have a count for ${cmd} seconds-----------`);
             setTimeout(function() {
-                message.channel.send(`*************${timer} is last please don\' send eny more message***********`);
+                message.channel.send(`*************${cmd} is last please don\' send eny more message***********`);
             }, timer)
         }
     }

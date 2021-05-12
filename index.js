@@ -18,11 +18,8 @@ client.on("message", async (message) => {
     console.log('message.content :', message.content);
     if (!message.content.startsWith(prefix) || message.author.bot) return false;
     const args = message.content.slice(prefix.length).trim().split(/ +/);
-    console.log('args ', args)
     const cmd = args.shift().toLowerCase();
-    console.log('cmd ', cmd);
     const command = client.commands.get(cmd);
-    console.log('command : ', command);
     try {
         await command.execute(message, client, args);
     } catch (error) {
