@@ -15,7 +15,6 @@ client.on('ready', () => {
     client.user.setActivity(`welcome to discord ready the bot`);
 });
 client.on("message", async (message) => {
-    console.log('message.content :', message.content);
     if (!message.content.startsWith(prefix) || message.author.bot) return false;
     const args = message.content.slice(prefix.length).trim().split(/ +/);
     const cmd = args.shift().toLowerCase();
